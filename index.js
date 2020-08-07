@@ -7,7 +7,6 @@ var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
     originWhitelist: ["https://repl.it/@splch/daily-paper", "https://daily-paper.splch.repl.co"], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
-    checkRateLimit: checkRateLimit,
     removeHeaders: [
       'cookie',
       'cookie2',
