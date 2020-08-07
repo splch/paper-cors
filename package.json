@@ -1,0 +1,15 @@
+{
+  "name": "paper-cors",
+  "version": "0.0.9",
+  "description": "cors-anywhere for daily-paper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Spencer Churchill",
+  "license": "MIT",
+  "dependencies": {
+    "cors-anywhere": "^0.4.3"
+  }
+}
