@@ -5,7 +5,7 @@ var port = process.env.PORT || 443;
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-    originWhitelist: ["https://repl.it/@splch/daily-paper", "https://daily-paper.splch.repl.co"], // Allow all origins
+    originWhitelist: ["https://daily-paper.splch.repl.co", "https://daily-paper--splch.repl.co"], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: [
       'cookie',
